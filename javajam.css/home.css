@@ -1,0 +1,157 @@
+
+
+body{
+    background-image:url("../Javajam Data Files/background.gif");
+    background-color:#FCEBB6;
+    color:#221811;
+    font-family:Verdana, Arial, sans-serif;
+}
+
+#wrapper{
+    background-color: #231814;
+    min-width:900px;
+    max-width: 1280px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px ;
+}
+
+header{
+    background-color: #D2B48C;
+    height: 150px;
+    background-image:url("/Javajam Data Files/javajamlogo.jpg") ;
+    background-repeat: no-repeat;
+}
+
+h1{
+    line-height: 200%;
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+}
+nav a:link{color:#FEF6C2}
+nav a:visited{color:#D2B48C}
+nav a:hover{color:#CC9933}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+nav a{
+    text-decoration: none;
+}
+
+h4{
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-bottom: 1;
+    clear: left;
+}
+
+.floatleft{
+    float:left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+footer{
+    background-color: #D2B48C;
+    font-size: .60em;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-top: 2px;
+    border-color: #221811;
+}
+
+main{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2em;
+    display: block;
+    margin-left: 200px;
+    padding-top: 0;
+    background-color: #FEF6C2;
+}
+main h2, main h3,main h4,main p,main div,main ul,main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+*{
+    box-sizing: border-box;
+}
+#heroroad{
+    background-image:url("../Javajam Data Files/heroroad.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+#heromugs{
+    background-image:url("../Javajam Data Files/heromugs.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+}
+#heroguitar{
+    background-image:url("../Javajam Data Files/heroguitar.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+}
+header, nav, main, footer{
+    display: block;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+    border-spacing: 0;
+    background-color: #FFFFCC;
+}
+td,th{padding: 10px;}
+tr:nth-of-type(odd){background-color: #D2B48E;}
+form{
+    padding: 2em;
+}
+form label{
+    float: left;
+    display: block;
+    text-align: right;
+    width:8em;
+    padding-right: 1em;
+}
+form input, form textarea{
+    display: block;
+    margin-bottom: 1em;
+}
+#mySubmit{margin-left: 9.5em}
+#herojobs{
+    height: 250px;
+    background-image:url("/Javajam Data Files/herojobs.jpg") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
